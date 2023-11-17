@@ -1,0 +1,145 @@
+@media(max-width:1199px)
+{
+    h1{
+        font-size: 45px;
+
+    }
+}
+
+@media(max-width:991px)
+{
+    h2{
+        font-size: 30px;
+        line-height: 40px;
+
+    }
+    h3{
+        font-size: 20px;
+
+    }
+
+    /* navbar */
+
+    .header_wrapper .navbar-brand img{
+        max-width:75px;
+    
+     }
+   .header-scrolled
+   {
+    height: auto;
+   }
+   .header_wrapper .navbar-collapse
+   {
+    margin-top: -2px;
+   }
+   .header_wrapper .menu-navbar-nav
+   {
+    text-align: center;
+    background-color: var(--bg-white);
+    padding-bottom: 15px;
+   }
+   .header_wrapper .nav-item .nav-link
+   {
+    margin-top: 8px;
+   }
+    .banner_wrapper{
+
+        padding-top: 70px;
+    }
+    .banner_wrapper .top-menu .card
+    {
+      height: 190px;
+    }
+    /* about */
+    .about_wrapper{
+    padding-bottom: unset;
+    }
+    .about_wrapper .card{
+        z-index: 10;
+        right: unset;
+        top: unset;
+    }
+ .about_wrapper .card h3
+ {
+    margin-right: 18px;
+    margin-left: 20px;
+
+ }
+ .about_wrapper .card p
+ {
+    margin-right: 18px;
+    margin-left: 20px;
+ }
+
+
+  /* menu */
+  .menu_wrapper .row
+  {
+   padding-top: 70px;
+
+  }
+  .menu_wrapper .card h3 span
+{
+   background-color: var(--primary-color);
+   width: 45px;
+   height: 45px;
+   line-height: 45px;
+   font-size: 22px;
+   
+}
+
+ /* offer */
+ .offer_wrapper .card .offer-text{
+    width: 65%;
+
+ }
+ 
+
+    
+
+}
+
+@media(max-width:767px)
+{
+    h1{
+        font-size: 40px;
+        line-height: 45px;
+
+    }
+    p{
+        font-size: 14px;
+        line-height: 24px;
+    }
+     /* menu */
+   .menu_wrapper .row
+   {
+    padding-top: 70px;
+
+   }
+   .menu_wrapper .card h3 span
+ {
+    background-color: var(--primary-color);
+    width: 45px;
+    height: 45px;
+    line-height: 45px;
+    font-size: 22px;
+    
+ }
+    .offer_wrapper .card .offer-text{
+        width: 65%;
+     }
+     .member_wrapper .carousel-caption{
+        margin-bottom: 0;
+     }
+
+ .member_wrapper .carousel-item{
+    min-height: 460px;
+ }
+
+ /* footer */
+ .footer > div{
+    padding: 0px 30px;
+  }
+
+}    
+  
