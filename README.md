@@ -1,5 +1,5 @@
 # foodweb
-Frontend code for food delivery site.
+Frontend work for food delivery site.
 
 ------
 
